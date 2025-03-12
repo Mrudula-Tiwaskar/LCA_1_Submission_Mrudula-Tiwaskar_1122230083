@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Maau's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EFEFE7;
+            color: #686A55;
+        }
+
+        header {
+            background: url(https://i.pinimg.com/736x/a9/07/63/a90763d82123027b0690c76d655bea8c.jpg) center/cover no-repeat;
+            text-align: center;
+            padding: 80px 20px;
+            color: #ffffff;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .about-text {
+            font-size: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .skill {
+            background: #BEAD8F;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            transition: transform 0.3s ease-in-out;
+            color:white
+            ;
+        }
+
+        .skill:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .skills {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .skills {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>About Me</header>
+    <div class="container">
+        <p class="about-text">I am a UX design student with a keen eye for detail and a passion for crafting intuitive, user-centered experiences. I thrive on blending research, psychology, and visual design to create meaningful interactions that enhance usability and engagement. My approach is rooted in thoughtful problem-solving, ensuring that every design decision is both functional and aesthetically compelling. Constantly exploring new tools and methodologies, I embrace feedback and iteration as essential parts of the creative process. Beyond design, I enjoy diving into emerging trends, analyzing real-world applications, and refining my skills to push the boundaries of user experience.</p>
+        <div class="skills">
+            <div class="skill">Figma</div>
+            <div class="skill">Pinterest</div>
+            <div class="skill">One Page</div>
+            <div class="skill">Behance</div>
+            <div class="skill">ChatGPT</div>
+            <div class="skill">Canva</div>
+        </div>
+    </div>
+</body>
+</html>

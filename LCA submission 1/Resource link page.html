@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of my go-to design and research resources, including Figma, Pinterest, Behance, and more.">
+    <title>My Design Resources</title>
+    <link rel="stylesheet" href="mid sem jury pg 2.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">My Resources</div>
+        <p>A set of essential tools that aid my creative journey ✨</p>
+        <nav>
+            <ul>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#tips">Usage Tips</a></li>
+                <li><a href="#contact">Suggest a Resource</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <h2>✨ My Favorite Tools</h2>
+            <div class="grid-container">
+                <article class="resource">
+                    <h3>Figma</h3>
+                    <p>A collaborative interface design tool for creating high-fidelity prototypes.</p>
+                    <a href="https://www.figma.com/" target="_blank">Visit Figma</a>
+                </article>
+                <article class="resource">
+                    <h3>Pinterest</h3>
+                    <p>A great place for collecting inspiration and visual mood boards.</p>
+                    <a href="https://www.pinterest.com/" target="_blank">Visit Pinterest</a>
+                </article>
+                <article class="resource">
+                    <h3>One Page</h3>
+                    <p>A tool for structuring concise presentations and portfolios.</p>
+                    <a href="https://app.onepage.io/sites" target="_blank">Visit Onepage</a>
+                </article>
+                <article class="resource">
+                    <h3>Behance</h3>
+                    <p>A platform to showcase and discover creative work from designers worldwide.</p>
+                    <a href="https://www.behance.net/" target="_blank">Visit Behance</a>
+                </article>
+                <article class="resource">
+                    <h3>ChatGPT</h3>
+                    <p>Assists in brainstorming, content refinement, and problem-solving.</p>
+                    <a href="https://chatgpt.com/" target="_blank">Visit ChatGPT</a>
+                </article>
+                <article class="resource">
+                    <h3>Canva</h3>
+                    <p>A simple yet powerful design tool for presentations, posters, and more.</p>
+                    <a href="https://www.canva.com/" target="_blank">Visit Canva</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Aside: Tips Section -->
+        <aside id="tips">
+            <h2>💡 Pro Tips for Each Tool</h2>
+            <div class="tips-grid">
+                <div class="tip">
+                    <h3>Figma</h3>
+                    <p>Use <em>auto-layout</em> for flexible designs and components for reusable UI elements.</p>
+                </div>
+                <div class="tip">
+                    <h3>Pinterest</h3>
+                    <p>Create private boards to store ideas before finalizing your design direction.</p>
+                </div>
+                <div class="tip">
+                    <h3>One Page</h3>
+                    <p>Refer to sample webpages or websites for laayouts and content distribution ideas.</p>
+                </div>
+                <div class="tip">
+                    <h3>Behance</h3>
+                    <p>Write detailed case studies to showcase your thought process and UX decisions.</p>
+                </div>
+                <div class="tip">
+                    <h3>ChatGPT</h3>
+                    <p>Use it for brainstorming, writing UX microcopy, and simplifying complex concepts.</p>
+                </div>
+                <div class="tip">
+                    <h3>Canva</h3>
+                    <p>Use <strong>brand kits</strong> for consistent color schemes and typography in presentations.</p>
+                </div>
+                <div class="tip">
+                    <h3>Google Fonts</h3>
+                    <p>Pair fonts wisely—combine a strong heading font with a simple body font for readability.</p>
+                </div>
+                <div class="tip">
+                    <h3>Notion</h3>
+                    <p>Organize research, UX flows, and inspiration in dedicated workspaces.</p>
+                </div>
+                <div class="tip">
+                    <h3>Miro</h3>
+                    <p>Use mind maps and flowcharts to visualize complex UX processes effectively.</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Resource Table -->
+        <section>
+            <h2>🔍 Comparison Table</h2>
+            <table style="background-color: #E0D8CB;">
+                <thead>
+                    <tr>
+                        <th>Tool</th>
+                        <th>Best For</th>
+                        <th>Free Version?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Figma</td>
+                        <td>Prototyping & UI/UX Design</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td>Pinterest</td>
+                        <td>Inspiration & Mood Boards</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td>Behance</td>
+                        <td>Portfolio & Showcasing Work</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td>Canva</td>
+                        <td>Quick Design & Presentations</td>
+                        <td>✅</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2 style="text-align: center;">📩 Suggest a Resource</h2>
+            <form>
+                <fieldset>
+                    <legend style="text-align: center;">Share Your Favorite Tool</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                   
+                    <label for="tool">Tool Name:</label>
+                    <input type="text" id="tool" required>
+                    
+                    <label for="rating">Rating:</label>
+                    <input type="range" id="rating" min="1" max="5">
+                   
+                    <label for="comments">Why do you love it?</label>
+                    <textarea id="comments"></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <br><br>
+    <section class="eco-credentials">
+        <div class="eco-text">
+            <h2>Vote of thanks</h2>
+            <br>
+            <p style="text-align: justify;">I would like to express my gratitude to these resources for playing a crucial role in shaping my submission. Figma’s versatility enabled seamless prototyping, while Pinterest and Behance provided a wealth of inspiration. One Page helped streamline information effectively, and ChatGPT assisted in refining ideas and structuring content. Canva further enhanced my presentation with its design capabilities. Each of these tools has contributed to my creative process, allowing me to bring my vision to life with clarity and precision.</p>
+            <br><br>
+            <a href="Resource link page.html" class="btn">Get resource links</a>
+        </div><br>
+        <div class="eco-image">
+            <img src="resources.png" alt="resources used">
+        </div>
+    </section>
+</body>
+</html>
